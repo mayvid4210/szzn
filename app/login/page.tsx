@@ -33,10 +33,10 @@ export default function LoginPage() {
         return;
       }
 
-      setError("hmmm... that's not it ♡");
+      setError("oops");
       setPassword("");
     } catch {
-      setError("something went wrong. try again ♡");
+      setError("haw");
     } finally {
       setLoading(false);
     }
@@ -66,7 +66,7 @@ export default function LoginPage() {
             type="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            placeholder="type it here..."
+            placeholder="type crow."
             autoComplete="off"
             autoFocus
             disabled={unlocking}

@@ -898,7 +898,7 @@ main {
   }
 
   .letter-photo {
-    width: 210px;
+    width: 300px;
 
     height: auto;
 
@@ -1293,9 +1293,9 @@ main {
   }
 
   .password-note input {
-    width: 210px;
+    width: 190px;
 
-    font-size: 18px;
+    font-size: 15px;
   }
 
   .password-note button {
